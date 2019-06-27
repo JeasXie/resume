@@ -1,0 +1,157 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: #efefef;
+}
+a{
+    text-decoration: none;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.topNavBar .logo  {
+    font-size: 24px;
+    font-family: 'Arial Black';
+    float: left;
+    padding: 3px 0px;
+}
+.topNavBar .logo .rs {
+    color: #e6686a;
+    margin-right: 6px;
+  
+}
+.topNavBar .logo .logo-card {
+    color: #9a9da2;
+}
+.topNavBar {
+    padding: 20px 16px;
+    position: fixed;
+   width: 100%;
+}
+.topNavBar-inner {
+    padding: 0px 26px 0px 0px;
+}
+.topNavBar nav {
+    float: right;
+    padding-top: 6px;
+    padding-bottom: 2px;
+
+}
+.topNavBar nav > ul {
+    list-style: none;
+
+
+}
+.topNavBar nav > ul > li {
+    float: left;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+.topNavBar nav > ul > li > a {
+    color: #b7b7b7;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid transparent;
+    padding: 5px 0px;
+    display: block;
+   
+}
+.topNavBar nav > ul > li > a:hover {
+    border-bottom: 3px solid #e06567;
+}
+.banner {
+    background-image: url(./img/aa1.jpg);
+    height: 515px;
+    background-size: cover;
+    background-position: center center;
+}
+.mask {
+    background-color: rgb(0, 0, 0,0.8);
+    height: 515px;
+}
+.card .avatar {
+    float: left;
+ 
+}
+.card .text {
+    float: left;
+    margin-left: 65px;
+    width: 470px;
+}
+.card {
+    max-width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #ffffff;
+}
+.card .text .welcome {
+    background: #e6686a;
+    color: white;
+    display: inline-block;
+   padding: 4px 16px;
+   position: relative;
+}
+.card .text .triangle {
+   border: 10px solid transparent;
+    width: 0px;
+    border-top-width: 0px;
+    border-left-color:#e6686a;
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 4px;
+}
+.card  dl dt,
+.card  dl dd{
+    float: left;
+    padding: 6px 0px;
+}
+.card dl dt{
+  width: 30%;
+  font-weight: bold ;
+}
+.card dl dd{
+  width: 70%;
+  color: #9da0a7;
+}
+.card .avatarAndtxet{
+    padding: 50px;
+}
+.card .text h1{
+    padding-top: 26px;
+}
+.card hr{
+    height: 0px;
+    border: none;
+    border-top: 1px solid #dedede;
+    margin: 20px 0px;
+}
+.card footer.media {
+    background: #e6686a;
+    text-align: center;
+}
+.card footer.media > a{ 
+    display: inline-block;
+    border-radius: 50%;
+    width: 40px;
+    padding: 5px 0px;
+    line-height: 30px;
+    margin: 16px;
+  
+  
+}
+.card footer.media > a:hover{
+    background: #cf5d5f;
+}
+.card svg {
+    width: 30px;
+    height: 30px;
+    fill: white;
+    vertical-align: top;
+}
